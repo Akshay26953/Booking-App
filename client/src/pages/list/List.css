@@ -1,0 +1,90 @@
+.listContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch {
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+
+.listResult {
+    flex: 3;
+}
+
+.listTitle {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.listItem:last-child {
+    margin-bottom: 0px;
+}
+.listItem label {
+    font-size: 12px;
+}
+
+.listItemDest {
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+
+.listOptions {
+    padding: 10px;
+}
+
+.listItemDate {
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.listOptionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.listOptionNumber {
+    width: 50px;
+    text-align: center;
+}
+
+.listButton {
+    padding: 10px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 0;
+}
